@@ -16,7 +16,7 @@
             <input type="text" name="apellido" class="form-control" id="apellido" value="{{ $cliente->apellido }}" required>
 
             <label for="dni">DNI</label>
-            <input type="number" name="dni" class="form-control" id="dni" value="{{ $cliente->dni }}" required>
+            <input type="number" name="dni" class="form-control" id="dni" value="{{ $cliente->dni }}" required max='99999999' min='10000000'>
 
             <label for="fechanacimiento">Fecha de Nacimiento</label>
             <input type="date" name="fechanacimiento" class="form-control" id="fechanacimiento" value="{{ $cliente->fechanacimiento }}" required>
@@ -31,7 +31,7 @@
             <input type="text" name="direccion" class="form-control" id="direccion" value="{{ $cliente->direccion }}" required>
 
             <label for="cuit">CUIT</label>
-            <input type="number" name="cuit" class="form-control" id="cuit" value="{{ $cliente->cuit }}" required>
+            <input type="number" name="cuit" class="form-control" id="cuit" value="{{ $cliente->cuit }}" required  max='99999999999' min='10000000000'>
 
             <label for="email">Email</label>
             <input type="email" name="email" class="form-control" id="email" value="{{ $cliente->email }}" required>

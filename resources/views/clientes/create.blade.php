@@ -14,12 +14,12 @@
             <input type="text" name="apellido" class="form-control" id="apellido" required>
 
             <label for="dni">DNI</label>
-            <input type="number" name="dni" class="form-control" id="dni" required>
+            <input type="number" name="dni" class="form-control" id="dni" required max='99999999' min='10000000'>
 
             <label for="fechanacimiento">Fecha de Nacimiento</label>
             <input type="date" name="fechanacimiento" class="form-control" id="fechanacimiento" required>
 
-            <label for="rela_provincia">Provincia</label>
+            <label for="rela_provincia">ID Provincia</label>
             <input type="number" name="rela_provincia" class="form-control" id="rela_provincia" required>
 
             <label for="localidad">Localidad</label>
@@ -29,7 +29,7 @@
             <input type="text" name="direccion" class="form-control" id="direccion" required>
 
             <label for="cuit">CUIT</label>
-            <input type="number" name="cuit" class="form-control" id="cuit" required>
+            <input type="number" name="cuit" class="form-control" id="cuit" required max='99999999999' min='10000000000'>
 
             <label for="email">Email</label>
             <input type="email" name="email" class="form-control" id="email" required>
