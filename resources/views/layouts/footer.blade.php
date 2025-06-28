@@ -3,7 +3,7 @@
     <div class="container d-flex flex-wrap justify-content-between align-items-center py-2 my-4">
         <div class="col-md-4 d-flex align-items-center">
 
-            <span class="text-muted"> Galeano Santiago 2025 - enjoy coding</span>
+            <span class="text-muted"> Justiniano Max 2025 - enjoy coding</span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-2">
